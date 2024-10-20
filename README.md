@@ -27,6 +27,7 @@ By using this yml environment we can be sure that we all are sharing dependencie
 ```
 conda env create -f CSE-6242-Amazon-Review-Sentiment/team184-env.yml
 ```
+This may take a bit as it installs all the necessary packages.
 ```
 conda activate team184-env
 ```
