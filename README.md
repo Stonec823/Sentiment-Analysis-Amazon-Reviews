@@ -21,7 +21,7 @@ Next open a terminal and run the below commands
 ```
 source ~/.bashrc
 ```
-###### Create env from yml file - may take some time to download
+#### Create env from yml file - may take some time to download
 By using this yml environment we can be sure that we all are sharing dependencies and can run the same code on the same python version 
 
 ```
@@ -38,7 +38,7 @@ NOTE - **Whenever you pip install something new, like pandas, you will need to e
 conda env export > team184-env.yml
 ```
 
-###### Creating the conda kernel
+#### Creating the conda kernel
 This essentially will allow us to use our conda env can be used in a jupyter notebook
 ```
 DL_ANACONDA_ENV_HOME="${DL_ANACONDA_HOME}/envs/team184-env"
