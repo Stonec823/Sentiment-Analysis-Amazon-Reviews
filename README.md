@@ -8,15 +8,15 @@ https://amazon-reviews-2023.github.io/
 
 
 # Setup 
-Go to GCP Vertex AI > Workbench > Managed notebooks
 
-Create an instance for your personal email
+Go to GCP Vertex AI > Workbench > Managed notebooks https://console.cloud.google.com/vertex-ai/workbench/instances
 
-Start the managed notebook then open jupyterlab
+Select create new at the top to create an instance, don't sweat too much about the details here, just select create. This step may take some time to load, don't worry just be a bit patient. Once you have an instance, click open jupyterlab.
 
-On the ribbon above, there is a 'Git' click on that then 'Clone a repository' and paste the link to this repo https://github.gatech.edu/jtriemer3/CSE-6242-Amazon-Review-Sentiment.git
+On the ribbon above, there is a 'Git' click on that then 'Clone a repository' and paste the link to this repo https://github.gatech.edu/jtriemer3/CSE-6242-Amazon-Review-Sentiment.git 
+You'll have to login to your gatech github here, mine is jtriemer3 then my password.
 
-Open terminal and run the below commands
+Next open a terminal and run the below commands
 
 ```
 source ~/.bashrc
@@ -25,7 +25,7 @@ source ~/.bashrc
 By using this yml environment we can be sure that we all are sharing dependencies and can run the same code on the same python version 
 
 ```
-conda env create -f team184-env.yml
+conda env create -f CSE-6242-Amazon-Review-Sentiment/team184-env.yml
 ```
 ```
 conda activate team184-env
