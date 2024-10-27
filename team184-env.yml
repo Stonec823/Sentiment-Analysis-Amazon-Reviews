@@ -57,7 +57,10 @@ dependencies:
       - filelock==3.16.1
       - fqdn==1.5.1
       - fsspec==2024.9.0
+<<<<<<< HEAD
       - gcsfs==2023.12.1
+=======
+>>>>>>> 61aa045d7a5aa4490051807f05fa38400de91eae
       - google==3.0.0
       - google-api-core==2.21.0
       - google-auth==2.35.0
